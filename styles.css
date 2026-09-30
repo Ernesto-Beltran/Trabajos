@@ -26,3 +26,7 @@
     max-width: 100%;
     border: 1px solid #666;
 }
+
+.wbr-example {
+    max-width: 12rem;
+}
