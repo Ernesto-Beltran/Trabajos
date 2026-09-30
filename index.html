@@ -52,5 +52,11 @@
     <h2>&lt;param&gt;</h2>
     <p>La etiqueta &lt;param&gt; va dentro de &lt;object&gt; para pasar parámetros al recurso. Está obsoleta y los navegadores actuales la ignoran; como no aporta contenido propio, no produce ningún efecto visible.</p>
     <p>Ejemplo de sintaxis antigua: <code>&lt;object data="recurso"&gt; &lt;param name="autoplay" value="false"&gt; &lt;/object&gt;</code></p>
+    <h2>&lt;source&gt;</h2>
+    <p>La etiqueta &lt;source&gt; indica el archivo y su formato para un reproductor &lt;audio&gt; o &lt;video&gt;. Se coloca dentro del reproductor, que debe tener controls para mostrar los controles de reproducción.</p>
+    <audio controls aria-label="Tono de ejemplo">
+        <source src="tono.wav" type="audio/wav">
+        Tu navegador no soporta audio.
+    </audio>
 </body>
 </html>
