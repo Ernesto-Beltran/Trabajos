@@ -4,3 +4,19 @@
     background-color: #edf6f5;
     font-weight: 600;
 }
+
+.col-example {
+    border-collapse: collapse;
+    margin: 1rem 0;
+    text-align: left;
+}
+
+.col-example th,
+.col-example td {
+    border: 1px solid #666;
+    padding: 0.5rem 0.75rem;
+}
+
+.col-highlight {
+    background-color: #d9eeee;
+}

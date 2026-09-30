@@ -30,5 +30,21 @@
     <h2>&lt;meta&gt;</h2>
     <p>La etiqueta &lt;meta&gt; aporta metadatos sobre la página, como su descripción, codificación o configuración de vista. Va en el &lt;head&gt; y no se muestra directamente.</p>
     <p><code>&lt;meta name="description" content="Página con ejemplos de etiquetas HTML de autocierre."&gt;</code></p>
+    <h2>&lt;col&gt;</h2>
+    <p>La etiqueta &lt;col&gt; define propiedades para una o más columnas de una tabla. Se coloca dentro de &lt;colgroup&gt; y permite aplicar estilos a una columna completa.</p>
+    <table class="col-example">
+        <caption>Productos</caption>
+        <colgroup>
+            <col class="col-highlight">
+            <col>
+        </colgroup>
+        <thead>
+            <tr><th scope="col">Producto</th><th scope="col">Precio (EUR)</th></tr>
+        </thead>
+        <tbody>
+            <tr><td>Cuaderno</td><td>3,00</td></tr>
+            <tr><td>Lápiz</td><td>1,00</td></tr>
+        </tbody>
+    </table>
 </body>
 </html>
